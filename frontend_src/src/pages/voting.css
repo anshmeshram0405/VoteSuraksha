@@ -1,0 +1,74 @@
+/* Election Table Styles */
+.election-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .election-table th, .election-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .election-table th {
+    background: linear-gradient(270deg, rgb(103, 135, 156), rgb(150, 220, 203));
+    color: white;
+    text-align: center;
+  }
+  .election-table td {
+   
+    text-align: center;
+  }
+  
+  .election-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .election-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .election-table td img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .election-table .btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .election-table .btn:hover {
+    transform: scale(1.02);
+  }
+  
+
+
+  .total_cardsofvote{
+    background: linear-gradient(270deg, rgb(103, 135, 156), rgb(150, 220, 203));
+    color: white;
+    text-align: center;
+    width: calc(33% - 20px);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 12px 0px;
+  }
+
+  .total_cardsofvote h2{
+font-size: 32px;
+margin-bottom: 10px;
+margin-top: 0;
+  }
+
+  .total_cardsofvote h3{
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
